@@ -141,8 +141,6 @@ a:hover, a:focus {
 .form-control {
 	border-radius: 3px;
 	-webkit-box-shadow:none;
-	box-shadow:none;
-	border: 0;
 }
 .input-lg {
 	height: 55px;
@@ -162,7 +160,7 @@ a:hover, a:focus {
 
 .masthead {
 	position: relative;
-	padding: 80px 15px;
+	padding: 250px 15px;
 	color: #FFF;
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
@@ -170,7 +168,6 @@ a:hover, a:focus {
 	background-image:url(../images/header_bg_gradient.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -385,7 +382,7 @@ to {
 	text-align:center;
 }
 .thumbnail .caption p {
-	color: #94a3a8;
+	color: rgba(88, 115, 125, 1);
 }
 /*Hover Animation*/
 
@@ -539,13 +536,13 @@ to {
 /*==========8. FOOTER ==============*/
 
 
-.footercta {
-	padding: 60px 15px;
+.footerctam {
+	padding: 220px 15px;
 	color: #FFF;
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
 	background-color: #6883cc;
-	background-image:url(../images/footer_img.jpg);
+	background-image:url(../images/tablette.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -554,6 +551,23 @@ to {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.footerctap {
+	padding: 220px 15px;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+	background-color: #6883cc;
+	background-image:url(../images/perefille.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .footerlinks {
 	text-align:center;
 }
