@@ -165,8 +165,8 @@ a:hover, a:focus {
 	color: #FFF;
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-	background-color: #6883cc;
-	background-image:url(../images/header_bg_gradient.jpg);
+	background-color: white;
+	background-image:url(../images/home.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
