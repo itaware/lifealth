@@ -646,3 +646,13 @@ padding: 40px 15px;
 .social-networks a:hover {
 	color: #ff6f69;
 }
+
+.feature-iconM {
+    display: block;
+    width: 100%;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(103, 125, 188, 1);
+    line-height: 2;
+}
