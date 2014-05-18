@@ -653,6 +653,16 @@ padding: 40px 15px;
     font-size: 3.5em;
     text-align: center;
     margin-bottom: 20px;
-    color: rgba(103, 125, 188, 1);
+    color: #65cdaa;
+    line-height: 2;
+}
+
+.feature-iconP {
+    display: block;
+    width: 100%;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c7fc3;
     line-height: 2;
 }
