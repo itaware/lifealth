@@ -159,19 +159,16 @@ a:hover, a:focus {
 /*========== 2. HEADER ==============*/
 
 .masthead {
-	position: relative;
-	padding: 250px 15px;
-	color: #FFF;
-	text-align: center;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-	background-color: white;
-	background-image:url(../images/home.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    position: relative;
+    padding: 250px 15px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    background-image: url('../images/PH2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 /* Initial Subtle Animation*/
 
