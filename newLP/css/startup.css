@@ -31,15 +31,48 @@ I will really help you
 
 */
 
-/*========== 1. GLOBAL STYLES ==============*/
+.fixrow{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #22A0DD;
 
+}
+.fixrow a{
+	color:white;
+}
+
+.fixrow h1{
+	color:white;
+	float: left;
+}
+
+.fixrow .slog{
+	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
+	color:white;
+	font-size: 20px;
+	float: left;
+	display: inline;
+	position: absolute;
+	bottom: 0px;
+}
+
+.slog{
+	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
+	font-size: 20px;
+	float: left;
+	display: inline;
+	position: absolute;
+	bottom: 0px;
+}
+/*========== 1. GLOBAL STYLES ==============*/
 
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	background:#FFF;
 	font-weight:300;
 	height: 100%;
-	margin: 0;
 	padding: 0;
 	color:#94a3a8;
 }
@@ -49,10 +82,11 @@ strong, b {
 h1 {
 	font-size:60px;
 	line-height:60px;
-	margin:25px 0;
-	padding-left: 60px;
-    color: #2c7fc3;
+	margin:0;
+	padding-left: 60px 0;
+    color: #22A0DD;
     font-weight: 600;
+    float: left;
 }
 h2 {
 	font-size:40px;
@@ -80,10 +114,10 @@ h6 {
 	color: #384047;
 }
 a {
-	color:#5173bd;
+	color:#22A0DD;
 }
 a:hover, a:focus {
-	color:#5173bd;
+	color:#22A0DD;
 }
 .preloader {
 	background-color:#FFFFFF;

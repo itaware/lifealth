@@ -32,19 +32,17 @@
 
 
 <body>
-
-<div class="row">
-    <div class="col-md-9">
-        <h1>Lifealth</h1>
-    </div>
-    <div class="col-md-1">
-        <h3 style="margin-top:50px;"><a href="#" >Démo</a></h3>
-    </div>
-    <div class="col-md-2">
-        <h3 style="margin-top:50px;"><a href="#" >Je m'inscris</a></h3>
-    </div>
+<div class="unfixednav">
+  <div class="row">
+      <div class="col-xs-8 col-md-10">
+          <h1>Lifealth</h1> <div class="slog"> Just better care </div>
+      </div>
+      <div class="col-xs-4 col-md-2">
+          <h3><a href="#" >Démo</a></h3>
+          <h3><a href="#" >Je m'inscris</a></h3>
+      </div>
+  </div>
 </div>
-
 <!-- Jssor Slider Begin -->
 <!-- You can move inline styles to css file or css block. -->
 <div id="slider1_container" style="position: relative; margin: 0 auto;
@@ -116,7 +114,7 @@
     <div class="col-sm-4 col-md-4">
       <div class="thumbnail">
         <div class="caption">
-          <img src="images/vidal_rond.png" alt="BCBVidal" height="">
+          <img src="images/preconsult.png" alt="BCBVidal" height="">
           <h3>Ordonnance sécurisée <br/> BCB et Vidal</h3>
         </div>
       </div>
@@ -181,7 +179,7 @@
         <div class="thumbnail">
           <div class="caption">
             <img src="images/workflow_rond.png" alt="Gestion" height="">
-            <h3>Des workflows santé personnalisables pour améliorer votre suivie patient</h3>
+            <h3>Des workflows santé personnalisables <br/> pour améliorer votre suivie patient</h3>
           </div>
         </div>
       </div>
@@ -271,20 +269,47 @@
 <!-- Grey Highlight Section -->
 <div class="highlight testimonials">
   <!-- Container -->
+  <br/>
+  <h2 style="text-align:center"> Services Partenaires :</h2>
+  <br/> 
   <div class="container">
-    <section class="row breath">
-      <div class="col-md-12 footerlinks">
-        <h4>Retrouvez nous sur vos réseaux sociaux favoris</h4>
-        <h4>#Lifealth</h4>
-        <div class="social-networks">
-          <a class="icon-facebook tooltipped" href="#" title="Facebook"></a>
-          <a class="icon-twitter tooltipped" href="#" title="Twitter"></a>
-          <a class="icon-google-plus tooltipped" href="#" title="Google+"></a>
-        </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <img src="images/iHealth.png" alt="..." >
       </div>
-    </section>
+      <div class="col-sm-6 col-md-4">
+        <img src="images/withings.png" alt="..." height="63">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="images/keldoc.png" alt="..." height="63">
+      </div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-md-offset-2">
+        <img src="images/doctolib.png" alt="..." height="63">
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <img src="images/clicrdv.png" alt="..." height="63">
+      </div>
+    </div>
     <!-- // End Client Logos -->
   </div>
+  <hr/>
+  <footer style="font-size:20px"> 
+    <div class="row">
+      <div class="col-sm-3 col-md-3">
+        <a href=""> Mentions légales </a> 
+      </div>
+      <div class="col-sm-3 col-md-3">
+        <a href=""> Contact </a> 
+      </div>
+      <div class="col-sm-2 col-md-2" style="text-align:center"> Newsletter:</div>
+      <div class="col-sm-4 col-md-4 control-label">
+        <input type="text" class="form-control" placeholder="Entrez votre email">
+      </div>
+    </div>
+  </footer>
   <!-- // Container Ends -->
 </div>
 
@@ -303,6 +328,21 @@
 <script type="text/javascript" src="js/jssor.core.js"></script>
 <script type="text/javascript" src="js/jssor.utils.js"></script>
 <script type="text/javascript" src="js/jssor.slider.js"></script>
+
+<!-- navbar JS -->
+<script type="text/javascript">
+  $(function(){
+  $(window).scroll(
+  function () {//Au scroll dans la fenetre on déclenche la fonction
+  if ($(this).scrollTop() > 110) { 
+  $('.unfixednav').addClass("fixrow"); 
+  } else {
+  $('.unfixednav').removeClass("fixrow");
+            }
+          }
+        );       
+      });
+</script>
 
 <!-- Slide JS -->
 <script>
