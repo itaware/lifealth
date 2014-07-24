@@ -209,6 +209,38 @@ a:hover, a:focus {
 }
 /*========== 2. HEADER ==============*/
 
+.navbar-brand {
+    float: none;
+    font-size: 50px;
+    color: #22A0DD;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-brand {
+    color: #22A0DD;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #22A0DD;
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height:100%;
+}
+
 .masthead {
 	position: relative;
 	padding: 250px 15px;
