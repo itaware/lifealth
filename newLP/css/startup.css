@@ -58,7 +58,7 @@ I will really help you
 	font-size: 20px;
 	float: left;
 	display: inline;
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 }
 
@@ -68,11 +68,11 @@ I will really help you
 	float: left;
 	display: inline;
 	position: absolute;
-	bottom: -22px;
 }
 
 .navbar-default{
 	margin-top: 2%;
+	margin-bottom: 2%;
 	padding-right: 5%
 }
 
@@ -95,6 +95,19 @@ I will really help you
 	margin-top: 2%
 }
 
+.footer1{
+	min-height: 500px;
+	text-align: center;
+	background-color: rgba(152, 202, 204, 1);
+}
+
+.buttonfooter{
+	padding-top:170px;
+}
+
+.buttonfooter .btn-default{
+	font-size: 35px
+}
 /*========== 1. GLOBAL STYLES ==============*/
 
 body {
@@ -249,8 +262,8 @@ a:hover, a:focus {
 {
     position: absolute;
     width: 100%;
-    left: -80px;
-    top: -10px;
+    left: 0;
+    top: 0;
     text-align: center;
     margin: auto;
     height:100%;
