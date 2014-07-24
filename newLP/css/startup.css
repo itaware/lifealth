@@ -39,6 +39,7 @@ I will really help you
 	background-color: #22A0DD;
 }
 
+
 .fixrow .navbar-default{
 	background-color: #22A0DD;
 	border-color: #22A0DD;
@@ -79,6 +80,11 @@ I will really help you
 .navbar-default .navbar-nav > li > a {
     font-size: 20px;
     font-weight: 600;
+    color:#22A0DD;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color:#22A0DD;
 }
 
 .navbar-default .navbar-brand{
@@ -96,13 +102,15 @@ I will really help you
 }
 
 .footer1{
-	min-height: 500px;
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
 	text-align: center;
 	background-color: rgba(152, 202, 204, 1);
 }
 
 .buttonfooter{
-	padding-top:170px;
+	padding-top:25%;
 }
 
 .buttonfooter .btn-default{
