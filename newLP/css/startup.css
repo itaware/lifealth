@@ -49,7 +49,15 @@ I will really help you
 	color: white;
 }
 
+.fixrow .navbar-default .navbar-brand:hover{
+	color: white;
+}
+
 .fixrow .navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.fixrow .navbar-default .navbar-nav > li > a:hover {
     color: white;
 }
 
@@ -57,18 +65,13 @@ I will really help you
 	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
 	color:white;
 	font-size: 20px;
-	float: left;
-	display: inline;
-	position: relative;
-	bottom: 0px;
+	margin-top: 10px;
 }
 
 .slog{
 	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
 	font-size: 20px;
-	float: left;
-	display: inline;
-	position: absolute;
+	margin-top: 10px;
 }
 
 .navbar-default{
@@ -93,12 +96,18 @@ I will really help you
 
 .btn-default{
 	background-color: rgba(212, 34, 34, 1);
-	border-color: white;
-	border-width: 3px;
+	border-width: 1px;
+	border-color: rgba(218, 94, 94, 1);
 	color:white;
 	font-size: 16px;
 	font-weight: 600;
-	margin-top: 2%
+	margin-top: 2%;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background: rgba(212, 34, 34, 1);
+	color:white;
+	border-color: rgba(218, 94, 94, 1);
 }
 
 .footer1{
@@ -106,16 +115,43 @@ I will really help you
 	min-height: 100%;
 	min-width: 100%;
 	text-align: center;
-	background-color: rgba(152, 202, 204, 1);
+	background-color: white;
 }
 
 .buttonfooter{
-	padding-top:25%;
+	padding-top:20%;
 }
 
 .buttonfooter .btn-default{
 	font-size: 35px
 }
+
+.bottom-name{
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 20px;
+	color:#22A0DD;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.bottom-slog{
+	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
+	font-size: 20px;
+	color:#22A0DD;
+	margin-top: 10px;
+}
+
+.final-footer{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	color:#647277;
+}
+
 /*========== 1. GLOBAL STYLES ==============*/
 
 body {
@@ -223,7 +259,7 @@ a:hover, a:focus {
 	display: none;
 }
 .btn, .btn-lg, .input-lg {
-	border-radius:3px;
+	border-radius:9px;
 }
 .form-control {
 	border-radius: 3px;
