@@ -45,11 +45,7 @@ I will really help you
 	border-color: #22A0DD;
 }
 
-.fixrow .navbar-default .navbar-brand{
-	color: white;
-}
-
-.fixrow .navbar-default .navbar-brand:hover{
+.fixrow .navbar-default .navbar-brand, .fixrow .navbar-default .navbar-brand:hover, .fixrow .navbar-default .navbar-brand:focus{
 	color: white;
 }
 
