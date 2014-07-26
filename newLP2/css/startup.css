@@ -71,9 +71,9 @@ I will really help you
 }
 
 .navbar-default{
-	margin-top: 2%;
-	margin-bottom: 2%;
-	padding-right: 5%
+	padding-right: 5%;
+	margin-bottom: 15px;
+	min-height: 65px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -87,7 +87,7 @@ I will really help you
 }
 
 .navbar-default .navbar-brand{
-	font-size: 60px;
+	font-size: 45px;
 }
 
 .btn-default{
@@ -175,6 +175,7 @@ table {
 
 .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
     border: 1px solid white;
+    padding: 13px;
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
