@@ -152,6 +152,34 @@ hr{
 	border-width: 3px 0px 0px
 }
 
+th{
+	text-align: center;
+}
+
+td{
+	color:rgba(88, 120, 131, 1);
+	font-size: 19px;
+}
+
+table {
+	border-collapse: unset;
+}
+
+.table-bordered {
+    border: 1px solid white;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 0px;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid white;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F3F6F8;
+}
 /*========== 1. GLOBAL STYLES ==============*/
 
 body {
