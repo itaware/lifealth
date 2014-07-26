@@ -181,6 +181,17 @@ table {
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
     background-color: #F3F6F8;
 }
+
+p > a{
+	color:rgba(227, 0, 0, 1);
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+p > a:hover, p > a:focus{
+	color:rgba(227, 0, 0, 1);
+}
+
 /*========== 1. GLOBAL STYLES ==============*/
 
 body {
