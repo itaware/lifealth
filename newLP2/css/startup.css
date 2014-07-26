@@ -192,6 +192,10 @@ p > a:hover, p > a:focus{
 	color:#6fcb43;
 }
 
+
+.faq h3{
+	color:black;
+}
 /*========== 1. GLOBAL STYLES ==============*/
 
 body {
