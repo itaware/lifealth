@@ -183,13 +183,13 @@ table {
 }
 
 p > a{
-	color:rgba(227, 0, 0, 1);
+	color:#6fcb43;
 	text-decoration: underline;
 	font-weight: 600;
 }
 
 p > a:hover, p > a:focus{
-	color:rgba(227, 0, 0, 1);
+	color:#6fcb43;
 }
 
 /*========== 1. GLOBAL STYLES ==============*/
