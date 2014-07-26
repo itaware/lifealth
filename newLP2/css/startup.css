@@ -148,6 +148,10 @@ a:hover{
 	color:#647277;
 }
 
+hr{
+	border-width: 3px 0px 0px
+}
+
 /*========== 1. GLOBAL STYLES ==============*/
 
 body {
