@@ -31,15 +31,186 @@ I will really help you
 
 */
 
-/*========== 1. GLOBAL STYLES ==============*/
+.fixrow{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #22A0DD;
+}
 
+
+.fixrow .navbar-default{
+	background-color: #22A0DD;
+	border-color: #22A0DD;
+}
+
+.fixrow .navbar-default .navbar-brand, .fixrow .navbar-default .navbar-brand:hover, .fixrow .navbar-default .navbar-brand:focus{
+	color: white;
+}
+
+.fixrow .navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.fixrow .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+.fixrow .slog{
+	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
+	color:white;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.slog{
+	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.navbar-default{
+	padding-right: 5%;
+	margin-bottom: 15px;
+	min-height: 65px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    font-weight: 600;
+    color:#22A0DD;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color:#22A0DD;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 45px;
+}
+
+.btn-default{
+	background-color: rgba(212, 34, 34, 1);
+	border-width: 1px;
+	border-color: rgba(218, 94, 94, 1);
+	color:white;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 2%;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background: rgba(212, 34, 34, 1);
+	color:white;
+	border-color: rgba(218, 94, 94, 1);
+}
+
+.footer1{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+.buttonfooter{
+	padding-top:20%;
+}
+
+.buttonfooter .btn-default{
+	font-size: 35px
+}
+
+.bottom-name{
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 20px;
+	color:#22A0DD;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.bottom-slog{
+	font-family: "Edwardian Script ITC","Open Sans","Arial,sans-serif";
+	font-size: 20px;
+	color:#22A0DD;
+	margin-top: 10px;
+}
+
+.final-footer{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	color:#647277;
+}
+
+hr{
+	border-width: 3px 0px 0px
+}
+
+th{
+	text-align: center;
+}
+
+td{
+	color:rgba(88, 120, 131, 1);
+	font-size: 19px;
+}
+
+table {
+	border-collapse: unset;
+}
+
+.table-bordered {
+    border: 1px solid white;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom-width: 0px;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid white;
+    padding: 13px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F3F6F8;
+}
+
+p > a{
+	color:#6fcb43;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+p > a:hover, p > a:focus{
+	color:#6fcb43;
+}
+
+
+.faq h3{
+	color:black;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+/*========== 1. GLOBAL STYLES ==============*/
 
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	background:#FFF;
 	font-weight:300;
 	height: 100%;
-	margin: 0;
 	padding: 0;
 	color:#94a3a8;
 }
@@ -49,7 +220,11 @@ strong, b {
 h1 {
 	font-size:50px;
 	line-height:60px;
-	margin:25px 0;
+	margin:0;
+	padding-left: 60px 0;
+    color: #22A0DD;
+    font-weight: 600;
+    float: left;
 }
 h2 {
 	font-size:40px;
@@ -72,15 +247,15 @@ h5 {
 }
 h6 {
 	font-size:16px;
-	font-weight:600;
+	font-weight:200;
 	margin:10px 0;
 	color: #384047;
 }
 a {
-	color:#5173bd;
+	color:#22A0DD;
 }
 a:hover, a:focus {
-	color:#5173bd;
+	color:#22A0DD;
 }
 .preloader {
 	background-color:#FFFFFF;
@@ -136,7 +311,7 @@ a:hover, a:focus {
 	display: none;
 }
 .btn, .btn-lg, .input-lg {
-	border-radius:3px;
+	border-radius:9px;
 }
 .form-control {
 	border-radius: 3px;
@@ -154,21 +329,56 @@ a:hover, a:focus {
 }
 .highlight {
 	background:#f4f4f4;
-	margin-top:40px;
+	margin-top:0px;
 }
 /*========== 2. HEADER ==============*/
 
-.masthead {
-    position: relative;
-    padding: 250px 15px;
-    color: #FFF;
+.navbar-brand {
+    float: none;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-brand {
+    color: #22A0DD
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #22A0DD;
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
     text-align: center;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
-    background-color: #FFF;
-    background-image: url('../images/PH2.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    margin: auto;
+    height:100%;
+}
+
+.masthead {
+	position: relative;
+	padding: 250px 15px;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+	background-color: white;
+	background-image:url(../images/BP_2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 /* Initial Subtle Animation*/
 
@@ -640,7 +850,7 @@ padding: 40px 15px;
 	transition: all 300ms ease;
 }
 .social-networks a:hover {
-	color: #65cdaa;
+	color: #ff6f69;
 }
 
 .feature-iconM {
