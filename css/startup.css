@@ -823,11 +823,16 @@ line-height: 40px;
 }
  .masthead {
 padding: 40px 15px;
+background-size: cover;
+background-attachment: scroll;
 }
 }
  @media (max-width: 480px) {
-	 /*Media Queries for smaller devices*/
-
+	/*Media Queries for smaller devices*/
+	.masthead {
+		background-size: cover;
+		background-attachment: scroll;
+	}
 }
 
 /*Social Networks
