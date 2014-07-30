@@ -826,10 +826,18 @@ padding: 40px 15px;
 background-size: cover;
 background-attachment: scroll;
 }
+.footerctam {
+	background-size: cover;
+	background-attachment: scroll;
+}
 }
  @media (max-width: 480px) {
 	/*Media Queries for smaller devices*/
 	.masthead {
+		background-size: cover;
+		background-attachment: scroll;
+	}
+	.footerctam {
 		background-size: cover;
 		background-attachment: scroll;
 	}
