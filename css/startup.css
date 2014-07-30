@@ -808,6 +808,10 @@ font-size: 35px;
  .breath {
 margin: 30px auto;
 }
+.footerctam {
+	background-size: cover;
+	background-attachment: scroll;
+}
 }
  @media (max-width: 767px) {
  h1 {
