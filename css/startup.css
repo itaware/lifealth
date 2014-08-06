@@ -24,6 +24,7 @@ Author URI: http://themeforest.net/user/surjithctly
 8. FOOTER
 9. CUSTOM MEDIA QUERIES
 10. SOCIAL ICONS
+11. POPUPS FORM
 
 
 If you having trouble in editing css. please send a mail to support@surjithctly.in -
@@ -174,8 +175,6 @@ a:hover, a:focus {
 	color:white;
 	border-color: rgba(218, 94, 94, 1);
 }
-
-
 
 a:hover{
 	text-decoration: none;
@@ -719,4 +718,11 @@ p > a:hover, p > a:focus{
     margin-bottom: 20px;
     color: #2c7fc3;
     line-height: 2;
+}
+
+/* POPUP FORMS -----------------------------------*/
+
+.version.active {
+    background-color: #ff6600;
+    color: white;
 }
