@@ -159,7 +159,7 @@ a:hover, a:focus {
 	margin-top:0px;
 }
 
-.btn-default{
+.btn-suscribe{
 	background-color: rgba(212, 34, 34, 1);
 	border-width: 1px;
 	border-color: rgba(218, 94, 94, 1);
@@ -169,7 +169,7 @@ a:hover, a:focus {
 	margin-top: 2%;
 }
 
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+.btn-suscribe:hover, .btn-suscribe:focus, .btn-suscribe:active, .btn-suscribe.active, .open .dropdown-toggle.btn-suscribe {
 	background: rgba(212, 34, 34, 1);
 	color:white;
 	border-color: rgba(218, 94, 94, 1);

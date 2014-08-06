@@ -46,11 +46,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-left">
-              <li><a><abbr title="Bientôt disponible !">Démo</abbr></a></li>
+              <li><a href="#" data-toggle="modal" data-target="#suscribeModal"><span>Démo</span></a></li>
               <li><a href="faq.html">FAQ</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="http://lifealth.us8.list-manage2.com/subscribe?u=e7abf67ea78e3df993f59c5df&id=d3d94c0220"><button type="button" class="btn btn-default">Je m'inscris</button></a></li>
+              <li><button type="button" class="btn btn-default btn-suscribe" data-toggle="modal" data-target="#suscribeModal">Je m'inscris</button></li>
           </ul>
       </div><!-- /.navbar-collapse -->
   </nav>
@@ -408,7 +408,7 @@
     <div class="buttonfooter">
       <a href=""><div class ="bottom-name"> Lifealth </div></a>
       <div class ="bottom-slog"> Just better care </div>
-      <a href="http://lifealth.us8.list-manage2.com/subscribe?u=e7abf67ea78e3df993f59c5df&id=d3d94c0220"><button type="button" class="btn btn-default">Je m'inscris</button></a>
+      <button type="button" class="btn btn-default btn-suscribe" data-toggle="modal" data-target="#suscribeModal">Je m'inscris</button>
     </div>
     <div class="final-footer">
     <div class="row">
@@ -426,8 +426,183 @@
   <!-- // Container Ends -->
 </div>
 
+<!-- DEMO MODAL -->
+<div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="demoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <br />
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="col-md-4">
+            <img src="side_image.jpg" alt="doctor" />
+          </div>
+          <div class="col-md-8">
+            <form role="form" action="http://getsimpleform.com/messages?form_api_token=840765e66da06793141d9d42dd531b62" method="post">
+              <input type="hidden" name="form" value="DEMO" />
+              <input type='hidden' name='redirect_to' value='http://lifealth.com/' />
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="firstName">Prénom</label>
+                  <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Votre prénom">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="name">Nom</label>
+                  <input type="text" class="form-control" name="surName" id="name" placeholder="Votre nom">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="email">Adresse email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse email" required>
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="phoneNumber">Numéro de téléphone</label>
+                  <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="06XXXXXXXX" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="adress">Adresse</label>
+                  <input type="text" class="form-control" name="adress" id="adress" placeholder="Votre adresse">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="adress">Ville</label>
+                  <input type="text" class="form-control" name="city" id="city" placeholder="Strasbourg">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="zipCode">Code postal</label>
+                  <input type="text" class="form-control" name="zipCode" id="zipCode" placeholder="67000">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="country">Pays</label>
+                  <input type="text" class="form-control" name="country" id="country" placeholder="France">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="spec">Spécialité</label>
+                  <input type="text" class="form-control" name="spec" id="spec" placeholder="Généraliste">
+                </div>
+                <div class="form-group col-md-3">
+                  <label>Être rappelé ?</label><br />
+                  <select name="callBack" class="form-control" required>
+                    <option>Tout de suite</option>
+                    <option>10h-12h</option>
+                    <option>12h-14h</option>
+                    <option>14h-16h</option>
+                    <option>16h-18h</option>
+                    <option>18h-20h</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <button type="submit" class="btn btn-default">Envoyer</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- SUSCRIBE MODAL -->
+<div class="modal fade" id="suscribeModal" tabindex="-1" role="dialog" aria-labelledby="suscribeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <br />
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class="col-md-4">
+            <img src="side_image_suscribe.jpg" alt="suscribe image" />
+          </div>
+          <div class="col-md-8">
+            <form role="form" action="http://getsimpleform.com/messages?form_api_token=840765e66da06793141d9d42dd531b62" method="post">
+              <input type="hidden" name="form" value="INSCRIPTION" />
+              <input type='hidden' name='redirect_to' value='http://lifealth.com/' />
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="firstName">Prénom</label>
+                  <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Votre prénom" required>
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="name">Nom</label>
+                  <input type="text" class="form-control" name="surName" id="name" placeholder="Votre nom" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <label for="email">Adresse email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse email" required>
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="phoneNumber">Numéro de téléphone</label>
+                  <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="06XXXXXXXX" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label>Spécialités</label><br />
+                  <select name="Spec" class="form-control">
+                    <option value="Médecine générale">Médecine générale</option>
+                    <option value="Cardiologie">Cardiologie</option>
+                    <option value="Dermatologie">Dermatologie</option>
+                    <option value="Gynécologie">Gynécologie</option>
+                    <option value="Neurologie">Neurologie</option>
+                    <option value="Ophtalmologie">Ophtalmologie</option>
+                    <option value="Oncologie">Oncologie</option>
+                    <option value="Oto-rhino-laryngologie">Oto-rhino-laryngologie</option>
+                    <option value="Pédiatrie">Pédiatrie</option>
+                    <option value="Pneumologie">Pneumologie</option>
+                    <option value="Psychiatrie">Psychiatrie</option>
+                    <option value="Rhumatologie">Rhumatologie</option>
+                    <option value="Urologie">Urologie</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label>Choisir ma version</label><br />
+                  <div id="mode-group" class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default">
+                      <input type="radio" name="version" id="version1" value="freemium"> Freemium (gratuit)
+                    </label>
+                    <label class="btn btn-default">
+                      <input type="radio" name="version" id="version2" value="premium" checked> Premium (100€/mois)
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <button type="submit" class="btn btn-default">Envoyer</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/response.js"></script>
 <script src="js/easing.js"></script>
 <script src="js/nicescroll.js"></script>
 <script src="js/ketchup.all.js"></script>

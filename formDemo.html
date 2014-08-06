@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form mobile page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/response.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-4">
+        <img src="side_image.jpg" alt="doctor" />
+      </div>
+      <div class="col-md-8">
+        <h3>Je souhaite une démo en ligne</h3>
+        <br />
+        <form role="form">
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="firstName">Prénom</label>
+              <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Votre prénom">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="name">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="email">Adresse email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse email">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="phoneNumber">Numéro de téléphone</label>
+              <input type="tel" class="form-control" id="phoneNumber" placeholder="06XXXXXXXX">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="adress">Adresse</label>
+              <input type="text" class="form-control" name="adress" id="adress" placeholder="Votre adresse">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="zipCode">Code postal</label>
+              <input type="text" class="form-control" name="zipCode" id="zipCode" placeholder="67000">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="country">Pays</label>
+              <input type="text" class="form-control" name="country" id="country" placeholder="France">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="spec">Spécialité</label>
+              <input type="text" class="form-control" name="spec" id="spec" placeholder="Généraliste">
+            </div>
+            <div class="form-group col-md-3">
+              <label>Être rappelé ?</label><br />
+              <select class="form-control">
+                <option>Tout de suite</option>
+                <option>10h-12h</option>
+                <option>12h-14h</option>
+                <option>14h-16h</option>
+                <option>16h-18h</option>
+                <option>18h-20h</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

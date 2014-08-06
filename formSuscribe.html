@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form mobile page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/response.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-4">
+        <img src="side_image_suscribe.jpg" alt="suscribe image" />
+      </div>
+      <div class="col-md-8">
+        <form role="form" action="http://getsimpleform.com/messages?form_api_token=39aea20cdd166be33b00f711ac854df3" method="post">
+          <input type='hidden' name='redirect_to' value='index.html' />
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="firstName">Prénom</label>
+              <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Votre prénom">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="name">Nom</label>
+              <input type="text" class="form-control" name="surName" id="name" placeholder="Votre nom">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="email">Adresse email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse email">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="phoneNumber">Numéro de téléphone</label>
+              <input type="tel" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="06XXXXXXXX">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label>Spécialités</label><br />
+              <select name="Spec" class="form-control">
+                <option value="Médecine générale">Médecine générale</option>
+                <option value="Cardiologie">Cardiologie</option>
+                <option value="Dermatologie">Dermatologie</option>
+                <option value="Gynécologie">Gynécologie</option>
+                <option value="Neurologie">Neurologie</option>
+                <option value="Ophtalmologie">Ophtalmologie</option>
+                <option value="Oncologie">Oncologie</option>
+                <option value="Oto-rhino-laryngologie">Oto-rhino-laryngologie</option>
+                <option value="Pédiatrie">Pédiatrie</option>
+                <option value="Pneumologie">Pneumologie</option>
+                <option value="Psychiatrie">Psychiatrie</option>
+                <option value="Rhumatologie">Rhumatologie</option>
+                <option value="Urologie">Urologie</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label>Choisir ma version</label><br />
+              <div id="mode-group" class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default">
+                  <input type="radio" name="version" id="version1" value="freemium"> Freemium (gratuit)
+                </label>
+                <label class="btn btn-default">
+                  <input type="radio" name="version" id="version2" value="premium"> Premium (100€/mois)
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <button type="submit" class="btn btn-default">Envoyer</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
