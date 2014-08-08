@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   //Don't display popup form on mobile devices
-	if(Response.deviceW() >= 768) {
+	if(Response.deviceW() > 768) {
 		$('#demoModal').modal({
       		show: false
     	});
