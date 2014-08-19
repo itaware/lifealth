@@ -225,6 +225,7 @@ p > a{
 p > a:hover, p > a:focus{
 	color:#6fcb43;
 }
+
 /*========== 2. HEADER ==============*/
 
 .navbar-header {
@@ -367,12 +368,13 @@ p > a:hover, p > a:focus{
 	box-shadow: 0 3px 0 rgba(2, 139, 61, 1);
 }
 .btn-primary {
-	background-color: #2db6d8;
+	background-color: #22A0DD;
 	background-image:none;
-	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	/*border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);*/
+	border: none;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-	background-color: #209ab8!important;
+	background-color: #22A0DD!important;
 	color:#FFF!important;
 }
 .subscribe {
@@ -725,4 +727,10 @@ p > a:hover, p > a:focus{
 .version.active {
     background-color: #ff6600;
     color: white;
+}
+
+/* CONNECT PART ---------------------------------- */
+
+.connect-text {
+	font-size: 19px;
 }
